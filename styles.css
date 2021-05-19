@@ -1,13 +1,17 @@
-img {
-    display:block;
-    width: 12%;
-    margin-left:auto;
-    margin-right:auto;
-}
+
 body {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #222;
+    color: rgb(39, 25, 25);
+    margin:0px;
+}
+img {
+    display:flex;
+    width: 12%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative; top:200px;
+    text-align: center;
 }
 .search {
     border-radius:25px;
@@ -18,37 +22,33 @@ body {
     height: 44px;
     width: 584px;
     max-width:auto;
-    position:static;
+    position:relative; top: 400px;
 }
 .search:hover {
     background-color: #fff;
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
     border-color:rgba(233,225,229,0);
 }
-ul {
-    border: 1px solid #473c3c;
-    background-color: #fff;
-
-}
-.ulflex {
-    display:flex;
-}
-.material-icons{
-
-}
-.material-icons:hover{
-    background-color:rgba(60,64,67,0.08);
+.topbar a{
+    display:inline-flexbox;
+    padding:8px;
+    margin:0 5px;
+    color:#222;
+    margin-top:25px;
     
 }
-.li1{
-    position:relative; top: 10px;
+.move{
+    float:right;
 }
-.li2{
-    position:relative; left: 60px; top:-5px;"
+.topbar a:hover{
+    text-decoration:underline;
 }
-.li3{
-    float:right; position:relative; top: 18px;
+.topbar a:active{
+    text-decoration:underline
 }
-.li4{
-    float:right; position:relative; left: -30px; top: -15px;
+
+.topbar a{
+    text-decoration:none;
+    color:#222
 }
+
