@@ -1,6 +1,8 @@
 html{
     height:100%;
     min-height:100%;
+    width:100%;
+    min-width:100%;
 }
 body {
     font-size: 14px;
@@ -8,7 +10,10 @@ body {
     color: rgb(39, 25, 25);
     
 }
-
+#wrapper{
+    margin-left:auto;
+    margin-right:auto;
+}
 img {
     width: 12%;
     margin-left:auto;
@@ -121,15 +126,15 @@ img {
     align-self: center;
 }
 #together i{
-    position: absolute;
-    right:1580px;
-    bottom:707px;
+    position: relative;
+    right:675px;
+    bottom:-12px;
     
 }
 #together a{
-    position: absolute;
-    right:950px;
-    bottom:707px;
+    position: relative;
+    right:65px;
+    bottom:-12px;
     color:#222
 }
 #google-search-btn {
