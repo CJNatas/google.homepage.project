@@ -1,3 +1,7 @@
 My first ever CS project, google's homepage.
 
 Starting off was quite a challenge, learning how to place and move everything around the page took a while to grasp but using grid-templates really started to bring everything together in my head.
+
+Still need to figure out how to make the resolution responsive to what device is being used.
+
+Also Want to add JavaScript to the website to make it responsive.
